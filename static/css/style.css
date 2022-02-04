@@ -1,0 +1,104 @@
+body
+{
+    background-image: url('https://images.pexels.com/photos/6729427/pexels-photo-6729427.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title{
+    font: size 500px;
+    text-align: center;
+    color:black;
+    margin-top: 100px;
+}
+.para{
+    font:large;
+    text-align:center;
+    color: black;
+    margin-top:20px;
+    
+}
+.card{
+    margin-top:100px;
+    width:200px;
+    background-color: cadetblue;
+
+}
+.card-img-top{
+    margin-top: 20px;
+    margin-bottom:20px;
+
+}
+.card-title{
+    text-align: center;
+    font-size: x-large;
+    color:black;
+
+}
+.card-text{
+    text-align: center;
+    font-size: size 500px;
+    color: black;
+}
+.input{
+    text-align: center;
+    margin-top: 100px;
+    font-size:size 500px;
+}
+
+.d-grid{
+    margin-top:20px;
+    text-align: center;
+}
+.ch{
+    text-align:left;
+    font-size:x-large;
+    color:#ffff1a;
+    margin-top:0px;
+
+}
+.ct{
+    text-align:left;
+    font-size:x-large;
+    color:yellow;
+}
+.ce{
+    text-align:left;
+    font-size:x-large;
+    color:yellow;
+}
+.predict{
+color:#66ff66;
+margin-top: 50px;
+text-align: center;
+}
+.form{
+    margin-top: 50px;
+    height:100px;
+
+}
+.button{
+    margin-top:300px;
+    text-align: center;
+}
+.l{
+color:#ccffff;
+margin-top:20px;
+margin-bottom:20px;
+margin-right:50px;
+margin-left:200px;
+font-size:x-large;
+}
+.i{
+margin-top:20px;
+margin-bottom:20px;
+}
+.i-r{
+margin-left:70px;
+margin-bottom:20px;
+}
+.i-t{
+margin-left:30px;
+margin-bottom:20px;
+}
