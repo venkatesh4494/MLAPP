@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+<body>
+    <div class="container-lg">
+      <h1 class="title">Machine Learning Application To Predict Active Power From Solar PV</h1>
+      <h2 class="para">80 kw solar panels are installed in University of Genoa,Savona Campus</h2>
+      <div class='row'>
+
+          <div class='col-lg-6'>
+              <div class="card" style="width: 18rem;">
+                  <img src="data:image/jpeg;base64,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" class="card-img-top">
+                  <div class="card-body">
+                    <h4 class="card-title">University Of Genoa,Italy</h4>
+                    <h4 class="card-text">Department of Energy Engineering</h4>
+                  </div>
+                </div>
+          </div>
+          <div class='col-lg-6'>
+              <div class="mb-3">
+                  <form action="/active" method="POST">
+              <h2 class="input">Input Features</h2>
+                      <div class="form">
+                          <label class="l">Phase_current_A</label>
+                          <input class='i'type="text" name="Phase_current_A" placeholder="[-0.08to5.97]" required="required" />
+                          <label class="l">Phase_voltage_A</label>
+		                 <input class="'i" type="text" name="Phase_voltage_A" placeholder="[1.19e+02to4.55e+01]" required="required" />
+                          <label class="l">Phase_voltage_B</label>
+                        <input  class='i' type="text" name="Phase_voltage_B" placeholder="[-113.05to43.78]" required="required" />
+                          <label class="l">Radiation</label>
+                       <input class='i-r' type="text" name="Radiation" placeholder="[-0.17to8.07]" required="required" />
+                          <label class="l">Temperature</label>
+                      <input class="i-t" type="text" name="Temperature" placeholder="[-21.76to3.21]" required="required" />
+                      </div>
+        <div class="button">
+            <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+        </div>
+
+                  </form>
+
+                <h2 class="predict">{{prediction_text}}</h2>
+                <br>
+                <br>
+                <h4 class="ch">
+                  Guided By
+                </h4>
+                  <h5 class="ct">Professor:Michela Robba</h5>
+                  <h5 class="ce">Email:michela.robba@unige.it</h5>
+      
+      </div>
+    </div>
+    
+</body>
+
+    
+</html>
